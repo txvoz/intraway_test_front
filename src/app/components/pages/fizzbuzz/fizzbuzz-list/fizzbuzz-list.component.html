@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+<app-fizzbuzz-create></app-fizzbuzz-create>
+
+<div id="distribution-opportunities" class="container">
+    <div class="row my-3 justify-content-center">
+        <div class="col-xl-12">
+            <div class="mt-5 mb-4">
+                <div class="float-right">
+                    <a class="btn btn-sm btn-primary-dark" href="javascript:;" data-toggle="modal" data-target="#newBrandModal">Create new FizzBuzz</a>
+                </div>
+
+                <h3>FizzBuzz</h3>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Date</th>
+                        <th>List</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of items">
+                        <td>{{ item.id }}</td>
+                        <td>{{ item.min }}</td>
+                        <td>{{ item.max }}</td> 
+                        <td>{{ item.createdDate }}</td>
+                        <td>
+                            <label *ngFor="let it of item.items">
+                                {{it.converterValue}} &nbsp;&nbsp;&nbsp; 
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

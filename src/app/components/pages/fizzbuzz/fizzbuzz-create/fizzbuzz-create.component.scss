@@ -1,0 +1,23 @@
+#new-brand{
+    padding: 100px 50px;
+
+    p{
+        font-size: 18px;
+    }
+
+    form{
+        input{
+            width: 90%;
+        }
+
+        .form-group{
+            padding: 0px;
+        }
+
+        small{
+            font-size: 12px;
+            display: block;
+            margin-top: 20px;
+        }
+    }
+}

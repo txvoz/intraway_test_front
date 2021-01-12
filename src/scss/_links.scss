@@ -1,0 +1,13 @@
+.link{
+    text-transform: uppercase;
+    font: 14px "Gilroy-bold";
+    
+    &:hover{
+        opacity: 0.95;
+    }
+
+    &.link-secondary{
+        color: $secondary-dark !important;
+    }
+}
+

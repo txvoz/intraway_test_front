@@ -1,0 +1,70 @@
+/* Colors */
+$primary-dark: #1E6F62;
+$primary: #2AC698;
+$primary-light: #CAF1E5;
+
+$secondary-dark: #3E4290;
+$secondary: #332999;
+$secondary-light: #DADAFD;
+
+$info-dark: #3E4290;
+$info: #6B6CF5;
+$info-light: #DADAFD;
+
+$warning-dark: #B89351;
+$warning: #F0BC5E;
+$warning-light: #FBEED7;
+
+$danger-dark: #721C24;
+$danger: #DC3545;
+$danger-light: #F8D7DA;
+
+$silver-dark: #888B95;
+$silver: #C4C5CA;
+$silver-light: #F0F1F2;
+
+$gray: #4d5160;
+$dark: #11172B;
+$light: #F8F8F9;
+
+/* Bootstrap Theme Colors */
+$theme-colors: ( 
+    "primary-dark": $primary-dark,
+    "primary": $primary,
+    "primary-light": $primary-light,
+
+    "secondary-dark": $secondary-dark,
+    "secondary": $secondary,
+    "secondary-light": $secondary-light,
+    
+    "info-dark": $info-dark,
+    "info": $info,
+    "info-light": $info-light,
+
+    "warning-dark": $warning-dark,
+    "warning": $warning,
+    "warning-light": $warning-light,
+
+    "danger-dark": $danger-dark,
+    "danger": $danger,
+    "danger-light": $danger-light,
+
+    "silver-dark": $silver-dark,
+    "silver": $silver,
+    "silver-light": $silver-light,
+
+    "white": #fff,
+    "light": $light, 
+    "gray": $gray, 
+    "dark": $dark, 
+);
+
+.pac-container {
+    z-index: 9999 !important;
+}
+
+/* Font sizes */
+$font-xs: 14px;
+$font-sm: 16px;
+$font-md: 22px;
+$font-lg: 28px;

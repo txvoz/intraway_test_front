@@ -1,0 +1,55 @@
+.modal{
+    .modal-dialog{
+        &.modal-lg{
+            max-width: 1150px;
+        }
+
+        &.modal-md{
+            max-width: 750px;
+        }
+
+        &.modal-sm{
+            max-width: 600px;
+        }
+    }
+
+    .modal-body,
+    .modal-header,
+    .modal-footer{
+        padding: 0px;
+    }
+
+    button.close{
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        z-index: 5;
+        font-size: 15px;
+        color: $secondary-dark;
+        z-index: 5;
+    }
+}
+
+.swal2-popup {
+    padding: 40px !important;
+}
+
+.swal2-actions{
+    .swal2-cancel,
+    .swal2-confirm{
+        border: 0px !important;
+        outline: none !important;
+        padding: 10px 16px !important;
+        font-size: 14px !important;
+    }
+
+    .swal2-cancel{
+        background-color: $silver-light !important;
+        color: $gray !important;
+    }
+    
+    .swal2-confirm{
+        background-color: $secondary !important;
+        color: $light !important;
+    }
+}

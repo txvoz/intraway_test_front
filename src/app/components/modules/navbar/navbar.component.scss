@@ -1,0 +1,86 @@
+@import "../../../../scss/variables";
+
+.navbar{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    .container{
+        padding: 0px;
+    }
+
+    a.navbar-brand{
+        margin-top: -5px;
+    }
+
+    li.nav-item{
+        a{
+            font-size: $font-xs !important;
+            text-transform: capitalize !important;
+            
+            &.nav-link{
+                color: #fff !important;
+            }
+            
+            &.dropdown-item{
+                padding: 5px 80px 5px 15px !important;
+
+                img{
+                    border: 1px solid $silver;
+                    width: 20px;
+                    height: 20px;
+                    padding: 1px;
+                    border-radius: 50%;
+                    object-fit: contain;
+                    margin-right: 4px;
+                    margin-top: -2px;
+                }
+            }
+
+            &.nav-link-upgrade{
+                border: 1px solid $primary;
+                border-radius: 20px;
+                color: $primary;
+                padding: 4px 20px;
+                margin-right: 10px;
+                transition: all .2s linear;
+                margin-top: 3px;
+
+                &:hover{
+                    background-color: $primary;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+#new-brand{
+    padding: 100px 50px;
+
+    p{
+        font-size: 18px;
+    }
+
+    form{
+        input{
+            width: 90%;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+        }
+
+        button{
+            border-top-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+        }
+
+        .form-group{
+            padding: 0px;
+        }
+
+        small{
+            font-size: 12px;
+            display: block;
+            margin-top: 20px;
+        }
+    }
+}

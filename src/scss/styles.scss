@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "variables.scss";
+@import "typography.scss";
+@import "mixins.scss";
+@import "modals.scss";
+@import "navbar.scss";
+@import "buttons.scss";
+@import "inputs.scss";
+@import "links.scss";
+@import "switches.scss";
+@import "cards.scss";
+@import "badges.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// .pac-container {
+//     z-index: 9999 !important;
+// }
+.container {
+    max-width: 1290px !important;
+}
+
+body {
+    background-color: $light;
+    font-family: "Circular";
+    overflow-x: hidden !important;
+    color: $dark;
+}
+
+.bg-brand-gradient {
+    background: linear-gradient(-110.18deg, rgba(53, 43, 157, 1) 0.28%, rgba(40, 32, 119, 1) 13.7%, rgba(26, 21, 77, 1) 30.75%, rgba(16, 12, 46, 1) 46.19%, rgba(9, 7, 28, 1) 59.33%, rgba(7, 5, 21, 1) 68.6%);
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    @media screen and (max-width: 425px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.section-sm {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-xs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pattern-dark {
+    background: url(../assets/images/pattern-dark.png) no-repeat left top;
+}
+
+.pattern {
+    background: url(../assets/images/pattern.png) no-repeat left top;
+}
+
+img.img-flag{
+    width: 26px;
+}
+
+th{
+    background-color: transparent;
+}

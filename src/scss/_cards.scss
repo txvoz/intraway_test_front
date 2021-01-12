@@ -1,0 +1,48 @@
+.card {
+    border: none !important;
+    box-shadow: 0 6px 23px 0 rgba(174, 174, 186, 0.16);
+
+    .card-header,
+    .card-footer{
+        border: none;
+        background-color: transparent;
+    }
+
+    &:hover {
+        transition: all .2s linear;
+        box-shadow: 0 10px 32px 0 rgba(174, 174, 186, 0.3);
+    }
+
+    &--block{
+        border: 1px solid $silver-light !important;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+    
+    &--no-padding{
+        .card-header{
+            padding-bottom: 0px;
+
+            p.title{
+                margin-top: 14px;
+            }
+        }
+    
+        .card-body{
+            padding-top: 10px;
+        }
+    }
+
+    &--border-dark{
+        border: 1px solid $silver !important;
+    }
+
+    &--head{
+        .card-header{
+            border-bottom: 1px solid $silver-light !important;
+        }
+    }
+}
